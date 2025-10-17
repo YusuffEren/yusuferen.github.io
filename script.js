@@ -20,10 +20,10 @@ window.addEventListener('scroll', () => {
     const currentScroll = window.pageYOffset;
 
     if (currentScroll > 100) {
-        nav.style.background = 'rgba(10, 10, 10, 0.95)';
+        nav.style.background = 'rgba(25, 24, 59, 0.98)';
         nav.style.boxShadow = '0 4px 20px rgba(0, 0, 0, 0.5)';
     } else {
-        nav.style.background = 'rgba(10, 10, 10, 0.9)';
+        nav.style.background = 'rgba(25, 24, 59, 0.95)';
         nav.style.boxShadow = 'none';
     }
 
@@ -171,7 +171,7 @@ document.querySelectorAll('.btn, .project-card, .blog-card').forEach(element => 
             width: ${size}px;
             height: ${size}px;
             border-radius: 50%;
-            background: rgba(0, 255, 136, 0.3);
+            background: rgba(150, 167, 141, 0.4);
             left: ${x}px;
             top: ${y}px;
             pointer-events: none;
@@ -199,5 +199,5 @@ style.textContent = `
 document.head.appendChild(style);
 
 // Console easter egg
-console.log('%c👋 Merhaba!', 'font-size: 2rem; color: #00ff88;');
-console.log('%cBu siteyi beğendin mi? Benimle iletişime geç!', 'font-size: 1rem; color: #a0a0a0;');
+console.log('%c👋 Merhaba!', 'font-size: 2rem; color: #96A78D;');
+console.log('%cBu siteyi beğendin mi? Benimle iletişime geç!', 'font-size: 1rem; color: #b8c5d0;');
