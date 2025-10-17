@@ -1,0 +1,31 @@
+# Site Ayarları
+title: İsminiz
+description: Yazılım Geliştirici & Blog
+author: İsminiz
+email: email@example.com
+
+# GitHub Pages için
+baseurl: ""
+url: "https://username.github.io"
+
+# Jekyll Ayarları
+theme: minima
+markdown: kramdown
+permalink: /blog/:year/:month/:day/:title/
+
+# Sosyal Medya (isteğe bağlı)
+github_username: username
+linkedin_username: username
+twitter_username: username
+
+# Build Ayarları
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+
+# Navigasyon
+header_pages:
+  - index.md
+  - about.md
+  - blog.md
