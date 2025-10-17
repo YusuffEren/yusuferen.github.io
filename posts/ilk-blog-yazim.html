@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İlk Blog Yazım - Yusuf Eren</title>
+    <link rel="stylesheet" href="../style.css">
+    <style>
+        .post-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 8rem 2rem 4rem;
+        }
+
+        .post-meta {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            margin-bottom: 2rem;
+            color: var(--text-secondary);
+        }
+
+        .post-content {
+            line-height: 1.8;
+        }
+
+        .post-content h1 {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(135deg, var(--text-primary), var(--accent-primary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .post-content h2 {
+            font-size: 2rem;
+            margin: 2rem 0 1rem;
+            color: var(--accent-primary);
+        }
+
+        .post-content p {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            font-size: 1.1rem;
+        }
+
+        .post-content ul, .post-content ol {
+            color: var(--text-secondary);
+            margin-bottom: 1.5rem;
+            margin-left: 2rem;
+        }
+
+        .post-content li {
+            margin-bottom: 0.5rem;
+        }
+
+        .post-content code {
+            background: var(--bg-secondary);
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            color: var(--accent-primary);
+            font-family: 'Courier New', monospace;
+        }
+
+        .post-content pre {
+            background: var(--bg-secondary);
+            padding: 1.5rem;
+            border-radius: 8px;
+            overflow-x: auto;
+            border: 1px solid var(--border-color);
+            margin-bottom: 1.5rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 2rem;
+            color: var(--accent-primary);
+            text-decoration: none;
+            transition: all 0.3s ease;
+        }
+
+        .back-link:hover {
+            text-shadow: 0 0 10px var(--accent-glow);
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav">
+        <div class="nav-container">
+            <a href="../index.html" class="logo">YE</a>
+            <div class="nav-links">
+                <a href="../index.html#home" class="nav-link">Ana Sayfa</a>
+                <a href="../index.html#about" class="nav-link">Hakkımda</a>
+                <a href="../index.html#projects" class="nav-link">Projeler</a>
+                <a href="../blog.html" class="nav-link">Blog</a>
+                <a href="../index.html#contact" class="nav-link">İletişim</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Post Content -->
+    <article class="post-container">
+        <a href="../blog.html" class="back-link">← Tüm yazılara dön</a>
+
+        <div class="post-meta">
+            <span>17 Ekim 2025</span>
+            <span>•</span>
+            <span>5 dakika okuma</span>
+        </div>
+
+        <div class="post-content">
+            <h1>İlk Blog Yazım: Yeni Başlangıçlar</h1>
+
+            <p>Merhaba! Bu benim ilk blog yazım ve bu platformda yazılım geliştirme, öğrendiğim teknolojiler ve deneyimlerimi paylaşacağım.</p>
+
+            <h2>Neden Blog?</h2>
+
+            <p>Blog yazmak birçok açıdan faydalı:</p>
+
+            <ol>
+                <li><strong>Öğrendiklerimi pekiştirmek</strong> - Bir konuyu başkalarına anlatmak, o konuyu daha iyi anlamama yardımcı oluyor</li>
+                <li><strong>Toplulukla paylaşmak</strong> - Karşılaştığım problemler ve çözümlerini paylaşmak başkalarına yardımcı olabilir</li>
+                <li><strong>İlerlememi takip etmek</strong> - Zaman içinde ne kadar geliştiğimi görmek motivasyon sağlıyor</li>
+            </ol>
+
+            <h2>Gelecek Planlar</h2>
+
+            <p>Yakında şunlar hakkında yazılar paylaşmayı planlıyorum:</p>
+
+            <ul>
+                <li>Web geliştirme best practices</li>
+                <li>Kullandığım araçlar ve teknolojiler</li>
+                <li>Proje deneyimlerim</li>
+                <li>Kod incelemeleri ve optimizasyon teknikleri</li>
+            </ul>
+
+            <h2>Teknoloji Stack'im</h2>
+
+            <p>Şu an odaklandığım teknolojiler:</p>
+
+            <ul>
+                <li><strong>Frontend:</strong> React, Vue.js, TailwindCSS</li>
+                <li><strong>Backend:</strong> Node.js, Express, Python</li>
+                <li><strong>Veritabanı:</strong> PostgreSQL, MongoDB</li>
+                <li><strong>DevOps:</strong> Docker, Git, GitHub Actions</li>
+            </ul>
+
+            <p>Bu teknolojilerle ilgili detaylı yazılar paylaşmayı planlıyorum.</p>
+
+            <h2>Sonuç</h2>
+
+            <p>Blog yazmaya başlamak için en iyi zaman şimdi. Umarım bu yazılar hem benim için hem de okuyanlar için faydalı olur.</p>
+
+            <p>Takipte kalın ve geri bildirimlerinizi bekliyorum!</p>
+        </div>
+
+        <div style="margin-top: 4rem; padding-top: 2rem; border-top: 1px solid var(--border-color);">
+            <a href="../blog.html" class="back-link">← Tüm yazılara dön</a>
+        </div>
+    </article>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Yusuf Eren. Tüm hakları saklıdır.</p>
+        </div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+</html>
