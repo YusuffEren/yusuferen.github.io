@@ -1,12 +1,12 @@
 # Site Ayarları
-title: İsminiz
+title: Yusuf Eren
 description: Yazılım Geliştirici & Blog
-author: İsminiz
-email: email@example.com
+author: Yusuf Eren
+email: your-email@example.com
 
 # GitHub Pages için
 baseurl: ""
-url: "https://username.github.io"
+url: "https://yusufferen.github.io"
 
 # Jekyll Ayarları
 theme: minima
@@ -14,7 +14,7 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title/
 
 # Sosyal Medya (isteğe bağlı)
-github_username: username
+github_username: YusuffEren
 linkedin_username: username
 twitter_username: username
 
